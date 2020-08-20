@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段,也是哪位用户上传的",
+    "artical_id": "发表动态的ID号，openid+时间",
+    "artical_author_name": "发表动态的作者名",
+    "artical_author_url": "发表动态的作者的头像",
+    "artical_title": "发表动态的标题",
+    "artical_content": "发表动态的内容",
+    "aritical_pic_list": [
+      {
+        "artical_pic_url": "发表图片的路径"
+      }
+    ]
+  }
+]

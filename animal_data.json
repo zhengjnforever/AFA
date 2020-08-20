@@ -1,0 +1,10 @@
+[
+  {
+    "animal_id": "动物的id",
+    "animal_name": "动物的名字",
+    "animal_url": "动物的图片路径",
+    "animal_introduction": "动物的介绍",
+    "animal_class": "动物的属性",
+//    这里动物的属性具体怎么分还待考究
+  }
+]

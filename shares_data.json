@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "shares_list":[
+      {
+        "article_id": "用户动态的id",
+        "article_url_first": "用户动态的第一张图片"
+      }
+    ]
+  }
+]

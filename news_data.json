@@ -1,0 +1,11 @@
+[
+  {
+    "news_id": "新闻的id号",
+    "news_url": "新闻的图片路径",
+    "news_title": "新闻文章标题",
+    "news_summary": "新闻的摘要10个字",
+    "news_content": "新闻的内容",
+    "news_class": "新闻的属性专题类型",
+    "news_favor": "文章的点击量默认0"
+  }
+]

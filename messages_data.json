@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "favor_message_list": [
+      {
+        "favor_people_head": "赞你的人的头像路径",
+        "favor_people_name": "赞你的人的名称",
+        "favor_artical_id": "赞你的文章的id",
+        "favor_artical_frist": "赞你的文章的第一张图路径",
+        "new_or_old": "新消息还是旧消息的标识号"
+      }
+    ],
+    "comment_message_list": [
+      {
+        "comment_people_head": "评论你的人的头像路径",
+        "comment_people_name": "评论你的人的昵称",
+        "comment_artical_id": "被评论的文章",
+        "comment_artical_first": "被评论的文章的第一张图",
+        "comment_artical_title": "被评论的文章的标题"
+      }
+    ],
+    "collect_message_list": [
+      {
+        "collect_people_head": "收藏你文章的人的头像路径",
+        "collect_people_name": "收藏你文章的人的昵称",
+        "collect_artical_id": "被收藏的文章id",
+        "collect_artical_first": "被收藏的文章第一张图的路径"
+      }
+    ]
+  }
+]

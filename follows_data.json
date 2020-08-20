@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "follows_list": [
+      {
+        "follows_id": "关注的用户id号",
+        "follows_head": "关注的用户的头像路径",
+        "follows_name": "关注的用户的昵称"
+      }
+    ]
+  }
+]

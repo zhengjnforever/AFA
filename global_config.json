@@ -1,0 +1,67 @@
+{
+  "个人主页背景": "",
+  "personal_background_list": [
+    {
+      "personal_background_id": "用户个人主页的背景id",
+      "personal_background_url": "背景的图片路径"
+    }
+  ],
+  "动物卡片": "",
+  "animal_cards_list": [
+    {
+      "animal_cards_id": "动物卡片id号",
+      "animal_cards_url": "动物卡片的url",
+      "animal_cards_title": "动物卡片的名称，动物的名称",
+      "animal_cards_class": "动物卡片的属性种类"
+//      这里需要再改和添加一些标识属性
+    }
+  ],
+  "问题列表": "可拆分出去",
+  "question_list": [
+    {
+      "question_content": "问题的内容",
+      "question_answer": [
+        {
+          "answer_content": "选项A的内容",
+          "answer_true": "是否是正确答案"
+        },
+        {
+          "answer_content": "选项B的内容",
+          "answer_true": "是否是正确答案"
+        },
+        {
+          "answer_content": "选项C的内容",
+          "answer_true": "是否是正确答案"
+        },
+        {
+          "answer_content": "选项D的内容",
+          "answer_true": "是否是正确答案"
+        }
+      ]
+    }
+  ],
+ "图鉴": "可拆分单独出去",
+  "animal_book": {
+    "宣传栏": "",
+    "bulletin_board": [
+      {
+        "bulletin_board_url": "插画的图片路径",
+        "bulletin_board_explain": "插画的附加解释内容"
+//        这里需要加一些内容
+      }
+    ],
+    "sky_book": [
+//      这里放的是天空物种，但是具体的怎么给动物分类还得再考量
+      {
+        "sky_animal_id": "动物的id",
+        "sky_animal_name": "动物名",
+        "sky_animal_url": "动物图片路径",
+        "sky_animal_class": "动物属性"
+//        这里面放什么把内容还得考究
+      }
+    ]
+
+  },
+
+
+}

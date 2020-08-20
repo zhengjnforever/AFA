@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "animal_cards_list": [
+      {
+        "animal_cards_id": "动物卡片id号",
+        "animal_cards_url": "动物卡片的url",
+        "animal_cards_title": "动物卡片的名称，动物的名称",
+        "animal_cards_class": "动物卡片的属性种类",
+//        这里同步global_config进行修改
+
+      }
+    ]
+  }
+]

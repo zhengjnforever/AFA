@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "fans_list": [
+      {
+        "fans_id": "这里放的是粉丝用户的openid号",
+        "fans_head": "粉丝的头像",
+        "fans_name": "粉丝的昵称",
+        "fans_follows": "这个粉丝是否被我关注了的标识号"
+      }
+    ]
+
+  }
+]

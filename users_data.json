@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "数据库自动生成的字段",
+    "_openid": "数据库自动生成的用户的openid字段",
+    "userinfo": {
+      "region": "北京",
+      "head": "用户的头像路径",
+      "name": "用户的昵称"
+    },
+    "number": {
+      "shares_number": "用户发表的动态的数量",
+      "fans_number": "用户的粉丝数量",
+      "follows_number": "用户的关注数量",
+      "collection_number": "用户被收藏或者被点赞的数量",
+      "animal_cards_number": "用户获得卡片的数量",
+      "score": "用户的积分数量"
+
+    },
+    "message_box": {
+      "favor_number": "新的用户被赞的数量，默认0",
+      "comment_number": "新的用户被评论的数量，默认0",
+      "collect_number": "新的用户被收藏的数量，默认0"
+    },
+    "config": {
+      "background_id": "用户个人主页的背景id"
+    }
+  }
+
+]
