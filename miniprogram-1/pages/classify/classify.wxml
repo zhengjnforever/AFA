@@ -1,0 +1,60 @@
+<!--pages/classify/classify.wxml-->
+<view class="classify_page">
+  <view class="head_top">
+    <text class="head_title">发现</text>
+    <image src="./search.png"  class="head_search"></image>
+  </view>
+  <view class="banner_animal">
+    <image src="./bac.png" mode="widthFix" style="width:100%" ></image>
+  </view>
+  <view class="button_center">
+    <view class="buttton_content" >
+      <image mode="widthFix" src="./know.png" style="width:100rpx;opacity:1;margin-right: 20px;" class="button_img"></image>
+      <image mode="widthFix" src="./know.png" style="width:100rpx;opacity:1;margin-left: 20px;" class="button_img"></image>
+    </view>
+  </view>
+  <view class="classify_content">
+    <view class="sky">
+      <view class="sky_title">
+        <text>发现海洋</text>
+        <image src="./search.png" class="sky_search"></image>
+      </view>
+      <view class="sky_list">
+        <block wx:for="{{sky_list}}" wx:for-index="i" wx:for-item="item" wx:key="i">
+          <view class="sky_item">
+            <image src="{{item.url}}" class="sky_img" mode="widthFix"></image>
+            <text class="sky_title">{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="sky">
+      <view class="sky_title">
+        <text>发现海洋</text>
+        <image src="./search.png" class="sky_search"></image>
+      </view>
+      <view class="sky_list">
+        <block wx:for="{{sky_list}}" wx:for-index="i" wx:for-item="item" wx:key="i">
+          <view class="sky_item">
+            <image src="{{item.url}}" class="sky_img" mode="widthFix"></image>
+            <text class="sky_title">{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="sky">
+      <view class="sky_title">
+        <text>发现海洋</text>
+        <image src="./search.png" class="sky_search"></image>
+      </view>
+      <view class="sky_list">
+        <block wx:for="{{sky_list}}" wx:for-index="i" wx:for-item="item" wx:key="i">
+          <view class="sky_item">
+            <image src="{{item.url}}" class="sky_img" mode="widthFix"></image>
+            <text class="sky_title">{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

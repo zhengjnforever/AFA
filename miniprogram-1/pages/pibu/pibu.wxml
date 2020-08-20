@@ -1,0 +1,52 @@
+
+<view>
+  <view style="height:60vh;">
+    <text>dasdasdasd</text>
+    <text>dasdasdasd</text>
+    <text>dasdasdasd</text>
+    <text>dasdasdasd</text>
+    <text>dasdasdasd</text>
+  </view>
+  
+  <view class="tabNav">
+      <view wx:for="{{navTab}}" wx:key="index" data-idx="{{index}}" bindtap="currentTab" class="{{currentTab==index ? 'cur' : ''}}">
+      
+      <image src="{{item}}" style="width:20px;height:20px"></image>
+      </view>
+  </view>
+  
+	<view class="content">
+      <view class="left">
+        <block wx:for="{{sendList}}" wx:key="index" wx:for-item="tuijain">
+          <template is="{{msg1}}" data="{{tuijain}}" wx:if="{{index%2==0}}"></template>
+        </block>
+      </view>
+      <view class="right">
+        <block wx:for="{{sendList}}" wx:key="index" wx:for-item="tuijain">
+          <template is="{{msg1}}" data="{{tuijain}}" wx:if="{{index%2==1}}"></template>
+        </block>
+      </view>
+  </view>  
+</view>
+<template name="1">
+	<view class="item">
+			<view class="li">
+				<image class="pic" src="{{tuijain.url}}" mode="widthFix"></image>
+					<view class="title-wrap">
+						<navigator url="url" class="title">{{tuijain.title}}</navigator>
+					</view>
+					<view class="bottom">
+						<view class="toux-name">
+							<image class="toux" src="{{tuijain.avatar}}"></image>
+							<text class="name">{{tuijain.name}}</text>
+						</view>
+						<view class="love-num">
+							<text class="love">{{tuijain.love}}</text>
+							<text class="num">{{tuijain.num}}</text>
+						</view>
+					</view>
+			</view>
+	</view>
+</template>
+
+

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pibu/pibu",
+    "pages/around/around",
+    "pages/classify/classify",
+    "pages/questionCompetition/questionCompetition"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FEFFFE",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FEFFFE",
+    "borderStyle": "white",
+    "selectedColor": "#00b38b",
+    "color": "#666666",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "Home",
+        "iconPath": "aa.png",
+        "selectedIconPath": "aa.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "Pibu",
+        "iconPath": "aa.png",
+        "selectedIconPath": "aa.png"
+      },
+      {
+        "pagePath": "pages/around/around",
+        "text": "周边",
+        "iconPath": "aa.png",
+        "selectedIconPath": "aa.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "aa.png",
+        "selectedIconPath": "aa.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,32 @@
+/* pages/first/first.wxss */
+page {
+  background-color:#FEFFFE;
+}
+.item{
+  background-color: 	#FFFFFF;
+  margin-bottom: 20rpx;
+  max-height:80vh;
+  overflow:hidden;
+}
+.header{
+  height: 15vh;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.head_title{
+  font-size: 6vw;
+  font-weight: 1000;
+  font-family: SimHei;
+}
+.head_time{
+  font-family: Microsoft JhengHei;
+  font-size: 3vw;
+  color: darkgrey;
+}
+.item_title{
+  margin-left: 10px;
+  height: 10vh;
+  overflow: hidden;
+}
+

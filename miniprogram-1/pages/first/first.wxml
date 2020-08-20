@@ -1,0 +1,30 @@
+<!--pages/first/first.wxml-->
+<view class="Scroll-container">
+  <view class="content-all" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend"
+    style="transform:translateY(-{{scrollindex*100}}%);margin-top: {{margintop}}px">
+<view class="home">
+  <view class="header">
+    <text class="head_title" bindtap="showimages">探索</text>
+    <view style="margin-top:8px">
+        <text class="head_time" space="emsp">{{time}}</text>
+    </view>
+
+  </view>
+  <view class="content">
+    <block wx:for="{{shares_list}}" wx:key="id" wx:for-item="item" wx:for-index="index">
+      <view bindtap='onclick' data-item='{{item}}'  >
+        <template is="item" data="{{item:item,index:index}}"></template>
+      </view>
+    </block>
+  </view>
+</view>
+  </view>
+</view>
+<template name="item">
+  <view class="item">
+    <image src="{{item.aritical_pic_list[0].artical_pic_url}}"  class="item_img"   mode="widthFix" style="width:100%;"></image>
+    <view class="item_title">
+      <text>{{item.artical_title}}</text>
+    </view>
+  </view>
+</template>

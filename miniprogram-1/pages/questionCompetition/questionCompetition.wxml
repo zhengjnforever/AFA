@@ -1,0 +1,13 @@
+<!--pages/questionCompetition/questionCompetition.wxml-->
+<view class="questionpage">
+  <view class="background">
+    <image src="./知识王者.png" class="backimg" mode="aspectFit"></image>
+  </view>
+  <view class="introduction" bindtap="gotoquestion">
+    <block></block>
+  </view>
+  <view class="startbutton">  
+  </view>
+
+</view>
+
